@@ -21,6 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+
+import drishti from "./company/drishti-logo.png"
+import eeti from "./company/eeti.jpeg";
+import ieee from "./company/ieee.png";
+import tinkerhub from "./company/tinkerhub.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -52,6 +57,10 @@ export {
   tailwind,
   typescript,
   threejs,
+  drishti,
+  eeti,
+  ieee,
+  tinkerhub,
   meta,
   shopify,
   starbucks,
