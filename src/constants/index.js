@@ -35,24 +35,24 @@ import {
       id: "about",
       title: "About",
     },
+    // {
+    //   id: "experience",
+    //   title: "Experience",
+    // },
     {
       id: "work",
-      title: "Work",
+      title: "Works",
     },
-    // {
-    //   id: "contact",
-    //   title: "Contact",
-    // },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Designer",
       icon: web,
     },
     {
       title: "React Developer",
-      icon: web,
+      icon: reactjs,
     },
   ];
   
@@ -123,13 +123,14 @@ import {
       ],
     },
     {
-      title: "Web team",
-      company_name: "EETI",
+      title: "Web Master",
+      company_name: "EETIF",
       icon: eeti,
       iconBg: "#E6DEDD",
       date: "Sept 2022 - Present",
       points: [
-        "Part of EETI web team",
+        "Diligently maintaining the official website, consistently introducing numerous new features.",
+        "Skillfully coordinating a team of five designers and developers.",
       ],
     },
     {
@@ -139,7 +140,7 @@ import {
       iconBg: "#383E56",
       date: "Sept 2022 - Present",
       points: [
-        "Part of IEEE SB CET web team.",
+        "Meticulously reviewing and upholding the existing website, conducting regular error checks to ensure its seamless functionality."
       ],
     },
     {
@@ -156,37 +157,37 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    // {
+    //   testimonial:
+    //     "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    //   name: "Sara Lee",
+    //   designation: "CFO",
+    //   company: "Acme Co",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    //   name: "Chris Brown",
+    //   designation: "COO",
+    //   company: "DEF Corp",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // },
+    // {
+    //   testimonial:
+    //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    //   name: "Lisa Wang",
+    //   designation: "CTO",
+    //   company: "456 Enterprises",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+    // },
   ];
   
   const projects = [
     {
       name: "Forest Fire Predictor",
       description:
-        "This is a machine learning project, that can predict the probability of occurrence of forest fire events by analysing weather data and Oxygen Concentration in the atmosphere in a specific area.",
+        "A machine learning project, that can predict the probability of occurrence of forest fire events by analysing weather data and Oxygen Concentration in the atmosphere in a specific area",
       tags: [
         {
           name: "HTML5",
@@ -207,7 +208,7 @@ import {
     {
       name: "Webclipper",
       description:
-        "Smart bookmarker that can be used to mark a specific part in a website and later return to that specific spot when needed.",
+        "An intelligent bookmarking extension designed to pinpoint and save specific sections of a website, enabling users to easily revisit those exact locations at their convenience",
       tags: [
         {
           name: "HTML5",
@@ -228,7 +229,7 @@ import {
     {
       name: "iCode",
       description:
-        "This project is in its initial stages.",
+        "A shared platform where individuals seeking to contribute to projects and those seeking to recruit team members can collaborate effectively ",
       tags: [
         {
           name: "REACT",
