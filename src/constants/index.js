@@ -41,7 +41,7 @@ import {
     // },
     {
       id: "work",
-      title: "Works",
+      title: "Experience",
     },
   ];
   
